@@ -1,0 +1,61 @@
+
+.content {
+  font-family: 'Roboto', sans-serif;
+  width: 1010px;
+  height: 503px;
+  border: 1px solid #d7d7d7;
+  background-color:  #ffffff;
+  margin: 86px 95px;
+}
+ .content_img, .content_text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.content_img {
+  margin: 64px 0px 64px 48px;
+  height: 375px;
+  width: 376px;
+}
+.content_text {
+  width: 394px;
+  height: 328px;
+  margin-left: 99px;
+}
+.content_text_beats {
+  color: #2f2f2f;
+  font-size: 23px;
+  font-weight: 400;
+}
+.content_text_info{
+  color: #2f2f2f;
+  margin-top: 30px;
+  margin-left: 1px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.content_text_price {
+  color: #2f2f2f;
+  margin-top: 55px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.content_text_price_2 {
+  color: #2f2f2f;
+  margin-left: 2px;
+  margin-top: 23px;
+  font-size: 30px;
+  font-weight: 400;
+}
+button {
+  color: #ffffff;
+  font-size: 19px;
+  margin-top: 56px;
+  width: 252px;
+  height: 50px;
+  background-color: #ec744a;
+}
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
