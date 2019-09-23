@@ -73,7 +73,6 @@ body {
   justify-content: center;
 }
 .tags {
-  border: 1px solid black;
   width: 1075px;
   height: 206px;
   display: flex;
