@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(49, 49, 49);
+  font-family: sans-serif;
+}
+.container {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  background-color: rgb(78, 78, 78);
+  width: 406px;
+  border: rgb(255, 252, 91) solid 3px;
+  border-radius: 5px;
+}
+.img {
+  display: inline-block;
+}
+.one {
+  margin-top: 20px;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  font-size:40px;
+  color: rgb(255, 252, 91);
+  border-bottom: 3px solid rgb(255, 252, 91);
+  border-top: 3px solid rgb(255, 252, 91);
+}
+.lessons {
+  display: inline-block;
+  margin-left: 15px;
+  color: rgb(255, 252, 91);
+}
+.btns-ten {
+  margin-left: 57px;
+  display: inline-block;
+}
+.btns {
+  margin-left: 65px;
+  display: inline-block;
+}
+a {
+  color: #000;
+}
+.btn-one {
+  margin-left: 0px;
+  width: 210px;
+}
+.btn-2 {
+  margin-left: 15px;
+}
+button{
+  background-color: rgb(255, 252, 91);
+  border: 0;
+  height: 35px;
+  border-radius: 5px;
+}
