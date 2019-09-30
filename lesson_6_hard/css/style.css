@@ -1,20 +1,19 @@
-img {
-  width: 42%;
-}
 .content_text {
-  width: 45%;
-  margin-left: 99px;
+  width: 50%;
 } 
 .content {
-  font-family: 'Roboto', sans-serif;
-  border: 1px solid #d7d7d7;
-  background-color:  #ffffff;
   position: absolute;
   top: 50%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  min-width: 991px;
+}
+.main {
+  font-family: 'Roboto', sans-serif;
+  border: 80px solid #d7d7d7;
+  background-color:  #ffffff;
+  max-width: 991px;
+
 }
 .content_img, .content_text {
   display: inline-block;
@@ -22,29 +21,29 @@ img {
 
 }
 .content_img {
-  margin: 64px 0px 64px 48px;
-  height: 375px;
-  width: 376px;
+  width: 45%;
 }
-.content_text_beats {
+.title {
   color: #2f2f2f;
   font-size: 23px;
   font-weight: 400;
 }
-.content_text_info{
+.info{
   color: #2f2f2f;
   margin-top: 30px;
   margin-left: 1px;
   font-size: 15px;
   font-weight: 400;
 }
-.content_text_price {
+.price-tag {
+  display: block;
   color: #2f2f2f;
   margin-top: 55px;
   font-size: 15px;
   font-weight: 400;
 }
-.content_text_price_2 {
+.price {
+  display: block;
   color: #2f2f2f;
   margin-left: 2px;
   margin-top: 23px;
